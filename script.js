@@ -26,7 +26,7 @@ async function checkWeather(city){
         } else if (weatherCondition.includes("dizzle")) {
             weatherIcon.src = "dizzle.png";
         }else {
-            weatherIcon.src = "clear"; 
+            weatherIcon.src = "clear.png"; 
         }
 
 }
